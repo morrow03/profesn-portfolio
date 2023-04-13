@@ -1,0 +1,13 @@
+[Unit]
+Description=Alfa4 - slovnik
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python /usr/local/bin/slovnik/main.py
+User=nobody
+WorkingDirectory=/usr/local/bin/slovnik
+Restart=on-failure
+RestartSecs=5
+
+[Install]
+WantedBy=multi-user.target

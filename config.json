@@ -1,0 +1,8 @@
+{
+  "ip": "127.0.0.1",
+  "port": 65532,
+  "adresa_start": "127.0.0.1",
+  "adresa_konec": "127.0.0.1",
+  "port_start": 65525,
+  "port_konec": 65535
+}
